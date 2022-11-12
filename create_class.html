@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Class</title>
+    <link rel="stylesheet" href="styleTeachers.css" />
+</head>
+<body>
+    <div class="container">
+        <h2>KIT Class Panel</h2>
+        <div class="form">
+            <select name="dropdown" id="roll">
+                <option value="timings" selected>Class Timings</option>
+                <option value="morning_timings">09AM-11PM</option>
+                <option value="evening_timings">02PM-04PM</option>
+                <option value="sunday_timings">11AM-01PM</option>
+            </select>
+            <select name="dropdown">
+                <option value="Schedule" selected>Select Schedule</option>
+                <option value="first_half">Monday Wednesday Friday</option>
+                <option value="second_half">Tuesday Thursday</option>
+                <option value="weekend_half">Saturday Sunday</option>
+            </select>
+            <select name="dropdown">
+                <option value="teacher" selected>Select Teacher</option>
+                <option value="rizwan">Rizwan Jamal(09AM-11AM) </option>
+                <option value="suleiman">Kashif Suleiman(09AM-11AM)</option>
+                <option value="suleiman">Gous Ahmed(09AM-11AM)</option>
+                <option value="suleiman">Shakib Ahsan(02PM-04AM)</option>
+            </select>
+            <select name="dropdown">
+                <option value="Select Section" selected>Assign Section</option>
+                <option value="A">Section A</option>
+                <option value="B">Section B</option>
+            </select>
+            <select name="dropdown">
+            <option value="course_select" selected>Select Course</option>
+            <option value="webApp">Web And Mobile App</option>
+            <option value="graphic">Graphic Designing</option>
+            <option value="solidity">Solidity </option>
+            <option value="cyber_security">Cyber Security </option>
+        </select>
+        <br>
+        <br>
+        <input type="number" placeholder="Enter Batch No">
+        <select name="dropdown">
+            <option value="Campus" selected>KIT Section</option>
+            <option value="gulshan_campus">Malir Campus</option>
+            <option value="Bahadurabad_campus">Nazimabad Campus</option>
+            <option value="punjab_campus">Punjab Campus </option>
+        </select>
+        </div>
+        <div class="buttons">
+            <button id="insert">Create Class</button>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+    <script src="./fireConfig.js"></script>
+<script src="./myscript.js"></script>
+</body>
+</html>

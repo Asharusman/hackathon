@@ -1,0 +1,46 @@
+body {
+    background: url(./bgimage.jpg);
+    display: flex;    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+width: 800px;
+margin: 15px auto;
+padding: 20px;
+font-family: arial;
+font-size: 16px;
+background-color:rgb(183, 210, 183) ;
+border-radius: 20px;
+}
+
+h2 {
+text-align: center;
+}
+
+.container div {
+text-align: center;
+}
+
+select {
+width: 100%;
+padding: 10px;
+margin-top: 10px;
+}
+input {
+width:94%;
+padding: 8px;
+margin-bottom: 8px;
+
+}
+button {
+width: 100%;
+padding: 10px;
+margin-top: 10px;
+font-size: 16px;
+background-color: rgb(41, 170, 172);
+border: none;
+color: white;
+border-radius: 10px;
+}
